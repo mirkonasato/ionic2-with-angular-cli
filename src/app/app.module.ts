@@ -1,20 +1,11 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { IonicApp, IonicModule } from 'ionic-angular';
 
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [ IonicModule.forRoot(AppComponent) ],
+  declarations: [ AppComponent ],
+  bootstrap: [ IonicApp ]
 })
 export class AppModule { }
