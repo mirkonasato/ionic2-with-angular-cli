@@ -2,6 +2,8 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
+This is an example used for the [Using Ionic 2 with the Angular CLI](https://labs.encoded.io/2016/11/12/ionic2-with-angular-cli/) article.
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
